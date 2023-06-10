@@ -1,4 +1,4 @@
-# Fix-Windows-Local-Security-Protection
+# Fix-Windows-Local-Security-Authority-Protection
 While Windows users report that this issue is caused by the recently released KB5023706 Windows 11 22H2 cumulative update, this has been happening since at least January 15.
 
 The "Local Security Authority protection is off. Your device may be vulnerable." warnings show up even though LSA Protection is enabled in Windows Security > Device security > Core isolation details.
@@ -9,7 +9,7 @@ To check if LSA had actually started in protected mode on your computer when Win
 
 ![LSA_protection_error](https://github.com/Sarvagon/Fix-Windows-Local-Security-Protection/assets/63664894/e5fa5c70-c351-4cf9-9a22-2c48759cd91f)
 
-## INSTRUCTIONS to use Fix-Windows-Local-Security-Protection :
+## INSTRUCTIONS to use Fix-Windows-Local-Security-Authority-Protection :
 1) Download the .zip or .7z file (you will find them in the "releases" section) and place it on your Desktop.
 2) 
 ![image](https://github.com/Sarvagon/Fix-Windows-Local-Security-Protection/assets/63664894/f37ce1f6-0ba7-41a1-8b40-98801d8b1826)
