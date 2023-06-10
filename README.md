@@ -1,11 +1,11 @@
 # Fix-Windows-Local-Security-Authority-Protection
-While Windows users report that this issue is caused by the recently released KB5023706 Windows 11 22H2 cumulative update, this has been happening since at least January 15.
+The KB5023706 Windows 11 22H2 cumulative update is a security update that was released on March 14, 2023. It includes several improvements and fixes for Windows 11, such as DCOM hardening, Active Directory domain join issue, and File Explorer enhancements. However, some users have reported seeing a warning message that says "Local Security Authority protection is off. Your device may be vulnerable." even though they have enabled LSA Protection in Windows Security.
 
-The "Local Security Authority protection is off. Your device may be vulnerable." warnings show up even though LSA Protection is enabled in Windows Security > Device security > Core isolation details.
+LSA Protection is a feature that protects the Local Security Authority (LSA) process from code injection attacks. The LSA process handles user authentication and security policies on Windows devices. To enable LSA Protection, you need to go to Windows Security > Device security > Core isolation details and turn on the Memory integrity setting.
 
-"There is a technical glitch with this feature, if you have successfully turned on this feature and you are being prompted to restart, kindly note that the feature is ON irrespective of the message as this is a technical glitch that we are aware of and we are working to resolve that issue soonest," Microsoft Technical support representative reportedly told one of the affected users.
+According to Microsoft Technical support, the warning message is a technical glitch that does not affect the actual status of LSA Protection. They said that if you have successfully turned on the feature and you are being prompted to restart, you can ignore the message as the feature is ON regardless of the message. They also said that they are aware of the issue and working to resolve it soon.
 
-To check if LSA had actually started in protected mode on your computer when Windows started, you can search for the following WinInit event in the System logs under Windows Logs: "12: LSASS.exe was started as a protected process with level: 4"
+To verify if LSA Protection is working on your device, you can check the System logs under Windows Logs in the Event Viewer. Look for the WinInit event with the following description: "12: LSASS.exe was started as a protected process with level: 4". This means that LSA had started in protected mode when Windows started.
 
 ![LSA_protection_error](https://github.com/Sarvagon/Fix-Windows-Local-Security-Protection/assets/63664894/e5fa5c70-c351-4cf9-9a22-2c48759cd91f)
 
