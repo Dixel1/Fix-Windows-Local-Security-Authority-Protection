@@ -11,7 +11,7 @@ To check if LSA had actually started in protected mode on your computer when Win
 
 ## INSTRUCTIONS to use Fix-Windows-Local-Security-Authority-Protection :
 1) Download the .zip or .7z file (you will find them in the "releases" section) and place it on your Desktop.
-2) 
+
 ![image](https://github.com/Sarvagon/Fix-Windows-Local-Security-Protection/assets/63664894/f37ce1f6-0ba7-41a1-8b40-98801d8b1826)
 
 2) Extract the content of the archive by following these steps (in my case I'm using NanaZip, an OpenSource fork of 7-Zip).
