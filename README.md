@@ -9,7 +9,7 @@ To verify if LSA Protection is working on your device, you can check the System 
 
 ![LSA_protection_error](https://github.com/Sarvagon/Fix-Windows-Local-Security-Protection/assets/63664894/e5fa5c70-c351-4cf9-9a22-2c48759cd91f)
 
-## INSTRUCTIONS to use Fix-Windows-Local-Security-Authority-Protection :
+## INSTRUCTIONS to use Fix-Windows-Local-Security-Authority-Protection
 1) Download the .zip or .7z file (you will find them in the "releases" section) and place it on your Desktop.
 
 ![image](https://github.com/Sarvagon/Fix-Windows-Local-Security-Authority-Protection/assets/63664894/b665261c-c397-403d-9f26-51d89ccacb1e)
