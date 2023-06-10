@@ -3,7 +3,7 @@ The KB5023706 Windows 11 22H2 cumulative update is a security update that was re
 
 LSA Protection is a feature that protects the Local Security Authority (LSA) process from code injection attacks. The LSA process handles user authentication and security policies on Windows devices. To enable LSA Protection, you need to go to Windows Security > Device security > Core isolation details and turn on the Memory integrity setting.
 
-According to Microsoft Technical support, the warning message is a technical glitch that does not affect the actual status of LSA Protection. They said that if you have successfully turned on the feature and you are being prompted to restart, you can ignore the message as the feature is ON regardless of the message. They also said that they are aware of the issue and working to resolve it soon.
+According to Microsoft Technical support, the warning message is a technical glitch that does not affect the actual status of LSA Protection. They said that if you have successfully turned on the feature and you are being prompted to restart, you can ignore the message as the feature is ON regardless of the message.
 
 To verify if LSA Protection is working on your device, you can check the System logs under Windows Logs in the Event Viewer. Look for the WinInit event with the following description: "12: LSASS.exe was started as a protected process with level: 4". This means that LSA had started in protected mode when Windows started.
 
